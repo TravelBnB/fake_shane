@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "pg -d reservations -a -f test.sql -u postgres"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^3.5.0",
+    "csv-reader": "^1.0.3",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.10",
+    "pg": "^7.4.3"
+  }
+}
